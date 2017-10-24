@@ -1,4 +1,7 @@
-package controller.deadLock;
+package com.controller.deadLock;
+
+import controller.deadLock.LockA;
+import controller.deadLock.LockB;
 
 public class DeadLock implements Runnable {
     private int i = 0;

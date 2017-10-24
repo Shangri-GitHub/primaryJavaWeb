@@ -1,4 +1,4 @@
-package controller.UploadImage;
+package com.controller.UploadImage;
 
 import java.io.File;
 import java.io.FileOutputStream;

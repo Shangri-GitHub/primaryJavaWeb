@@ -1,4 +1,4 @@
-package controller;
+package com.controller;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -14,7 +14,6 @@ public class FileWriteDemo {
         bw.newLine();
         bw.flush();
         bw.write("你好");
-
 
 
         bw.write("你好".toCharArray());

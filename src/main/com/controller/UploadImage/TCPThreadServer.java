@@ -1,4 +1,4 @@
-package controller.UploadImage;
+package com.controller.UploadImage;
 
 import java.io.IOException;
 import java.net.ServerSocket;

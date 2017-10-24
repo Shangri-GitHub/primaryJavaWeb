@@ -1,4 +1,4 @@
-package controller;
+package com.controller;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

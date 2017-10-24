@@ -1,4 +1,4 @@
-package com.controller.deadLock;
+package controller.deadLock;
 
 public class LockB {
     private LockB() {

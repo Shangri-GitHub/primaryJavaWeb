@@ -1,4 +1,5 @@
-package controller.deadLock;
+
+import com.controller.deadLock.DeadLock;
 
 public class DeadLockDemo {
     public static void main(String[] args) {
