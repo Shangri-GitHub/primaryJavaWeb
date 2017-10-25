@@ -1,4 +1,4 @@
-package controller.TicketDemo;
+package com.controller.TicketDemo;
 
 /**
  * 采用同步方法形式,解决线程的安全问题

@@ -20,6 +20,7 @@ public class TcpSendImage {
         }
         // 给服务器终止方法
         socket.shutdownOutput();
+
         // 获取字节的输入流
         InputStream in = socket.getInputStream();
         System.out.println((new String(bytes, 0, in.read(bytes))));

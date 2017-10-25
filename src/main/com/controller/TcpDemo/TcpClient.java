@@ -1,4 +1,4 @@
-package controller.TcpDemo;
+package com.controller.TcpDemo;
 
 import java.io.IOException;
 import java.io.InputStream;

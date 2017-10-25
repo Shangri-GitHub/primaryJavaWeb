@@ -1,4 +1,4 @@
-package controller.TicketDemo;
+package com.controller.TicketDemo;
 
 public class TicketDemo {
     public static void main(String[] args) {
@@ -9,5 +9,6 @@ public class TicketDemo {
         t0.start();
         t1.start();
         t2.start();
+        new Thread( new Tickets()).start();
     }
 }
