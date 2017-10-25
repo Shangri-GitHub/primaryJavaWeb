@@ -1,4 +1,4 @@
-package controller.domain;
+package com.controller.domain;
 
 public class Product {
     private String pname;

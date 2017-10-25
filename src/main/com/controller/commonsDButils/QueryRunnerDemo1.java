@@ -1,8 +1,8 @@
-package controller.commonsDButils;
+package com.controller.commonsDButils;
 
-
+import com.controller.commonsDButils.QueryRunnerDemo;
 import com.sun.xml.internal.ws.developer.MemberSubmissionEndpointReference;
-import controller.domain.Product;
+import com.controller.domain.Product;
 import org.apache.commons.dbutils.DbUtils;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.*;

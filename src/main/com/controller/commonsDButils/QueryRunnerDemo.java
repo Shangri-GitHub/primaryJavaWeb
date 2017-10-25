@@ -1,4 +1,4 @@
-package controller.commonsDButils;
+package com.controller.commonsDButils;
 
 import org.apache.commons.dbutils.DbUtils;
 import org.apache.commons.dbutils.QueryRunner;
