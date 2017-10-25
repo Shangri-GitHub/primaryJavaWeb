@@ -1,6 +1,6 @@
-package controller.Thread;
+package com.controller.Thread;
 
-        import java.util.concurrent.Callable;
+import java.util.concurrent.Callable;
 
 public class GetSumCallable implements Callable<Integer> {
     private int a;

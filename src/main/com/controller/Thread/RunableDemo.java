@@ -1,4 +1,4 @@
-package controller.Thread;
+package com.controller.Thread;
 
 /**
  * 接口的另一种实现方法

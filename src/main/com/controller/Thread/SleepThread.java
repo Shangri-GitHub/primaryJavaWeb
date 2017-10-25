@@ -1,4 +1,4 @@
-package controller.Thread;
+package com.controller.Thread;
 
 public class SleepThread extends Thread{
     public void run(){

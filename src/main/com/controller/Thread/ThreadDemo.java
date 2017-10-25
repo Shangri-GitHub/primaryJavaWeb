@@ -1,4 +1,4 @@
-package controller.Thread;
+package com.controller.Thread;
 
 import static java.lang.Thread.currentThread;
 
