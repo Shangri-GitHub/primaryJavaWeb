@@ -1,0 +1,5 @@
+className=com.controller.ReflectTest.Person
+methodName=eat
+
+#className=com.controller.ReflectTest.Worker
+#methodName=coding
