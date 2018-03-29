@@ -25,6 +25,18 @@ public class EatAppleGameImplement {
         new Thread(apple, "小A").start();
         new Thread(apple, "小B").start();
         new Thread(apple, "小C").start();
+        // 匿名内部类
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                int num = 50;
+                for (int i = 0; i < 50; i++) {
+                    if (num > 0) {
+                        System.out.println(Thread.currentThread().getName() + "吃了" + num-- + "个苹果");  // getName()获取Thread的名称
+                    }
+                }
+            }
+        }, "小C").start();
 
     }
 }
