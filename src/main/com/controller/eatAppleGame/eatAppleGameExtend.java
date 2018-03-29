@@ -12,12 +12,13 @@ package com.controller.eatAppleGame;
  * 1）java可以实现多实现接口，还可以继承其他类（设计更优雅）
  * 2）能实现共享资源
  *  ----------
+ *
  */
 
 
 // 每一个同学好比是一个线程
 class Person extends Thread {
-    private int num = 50; //苹果总数
+    static int num = 50; //苹果总数
 
     public Person(String name) {
         super(name);
@@ -27,6 +28,11 @@ class Person extends Thread {
     public void run() {
         for (int i = 0; i < 50; i++) {
             if (num > 0) {
+                try {
+                    Thread.sleep(10);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
                 System.out.println(getName() + "吃了" + num-- + "个苹果");  // getName()获取Thread的名称
             }
         }

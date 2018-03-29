@@ -10,7 +10,7 @@ class Apple implements Runnable {
     static int num = 50;
 
     public void run() {
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < num; i++) {
             if (num > 0) {
                 System.out.println(Thread.currentThread().getName() + "吃了" + num-- + "个苹果");  // getName()获取Thread的名称
             }
