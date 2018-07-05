@@ -1,10 +1,13 @@
-package controller;
+package com.controller;
+
+import com.sun.xml.internal.stream.events.EndElementEvent;
 
 import java.io.FileReader;
 import java.io.IOException;
 
 public class FileReadDemo {
     public static void main(String[] args) throws IOException {
+
         /**
          * 读取单个的字符流
          */
