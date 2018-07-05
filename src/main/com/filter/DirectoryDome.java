@@ -1,4 +1,4 @@
-package filter;
+package com.filter;
 
 import java.io.File;
 import java.io.FileFilter;

@@ -1,6 +1,6 @@
-package controller;
+package com.controller;
 
-import filter.DirectoryDome;
+import com.filter.DirectoryDome;
 
 import java.io.File;
 
