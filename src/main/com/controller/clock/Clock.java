@@ -1,5 +1,7 @@
 package com.controller.clock;
 
+
+
 public class Clock {
     private Display hour = new Display(24);
     private Display minute = new Display(60);
@@ -16,10 +18,14 @@ public class Clock {
     }
 
     public static void main(String[] args) {
+
+
+
         Clock clock = new Clock();
         while (true) {
             clock.tick();
             clock.show();
         }
+
     }
 }
