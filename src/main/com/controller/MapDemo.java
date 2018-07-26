@@ -95,15 +95,17 @@ public class MapDemo {
         map1.put("c", "a");
         // 通过ArrayList构造函数把map.entrySet()转换成list
         List <Map.Entry <String, String>> list = new ArrayList <Map.Entry <String, String>>(map1.entrySet());
-        // 排序
+
         Collections.sort(list, new Comparator <Map.Entry <String, String>>() {
             public int compare(Map.Entry <String, String> mapping1, Map.Entry <String, String> mapping2) {
                 return mapping1.getKey().compareTo(mapping2.getKey());
             }
         });
+
         for (Map.Entry <String, String> entry : list) {
             System.out.println(entry.getKey() + ":" + entry.getValue());
         }
+
         for (int i = 0; i < list.size(); i++) {
             System.out.println(i + ":" + list.get(i));
         }
